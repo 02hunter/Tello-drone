@@ -44,13 +44,19 @@ recvThread.start()
 # CREATE FUNCTIONS HERE....
 # Square Function
 
-    def firstHoop():
+def firstHoop():
     sendmsg('up 45')
     sendmsg('forward 210')
 
 
-    def secondHoop():
+def secondHoop():
     sendmsg('go 215 0 65 60')
+
+def thirdHoop():
+    sendmsg('curve 230 85 180 220 80 56 55')
+    '''sendmsg('ccw 90')
+    sendmsg('forward 285')
+    sendmsg('ccw 90')'''
 
 
     #for i in range(4):
