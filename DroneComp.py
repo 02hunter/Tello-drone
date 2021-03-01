@@ -48,6 +48,11 @@ recvThread.start()
     sendmsg('up 45')
     sendmsg('forward 210')
 
+
+    def secondHoop():
+    sendmsg('go 215 0 65 60')
+
+
     #for i in range(4):
 
 
