@@ -58,6 +58,9 @@ def thirdHoop():
     sendmsg('forward 285')
     sendmsg('ccw 90')'''
 
+def fourthHoop():
+     sendmsg('go 215 0 -45 75')
+
 
     #for i in range(4):
 
